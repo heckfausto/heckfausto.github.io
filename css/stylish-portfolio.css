@@ -10,6 +10,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.logo-mauro{
+  display: none;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: left;
@@ -267,6 +271,14 @@ hr.small {
         font-size: 1.6em;
         font-weight: 400;
         width: 90%;
+    }
+    
+    .logo-mauro{
+        display: block;
+        width: 30%;
+        height: 30%;
+        margin-bottom: 5%;
+        margin-top: -2%;
     }
 }
 
